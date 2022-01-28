@@ -1,0 +1,134 @@
+
+ul {
+	 font-family: 'Zen Kurenaido', sans-serif; 
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 background-color: #333;
+	 overflow: hidden;
+	 position: sticky;
+	 top: 0;
+	  } 
+			
+li{ 
+     float: left;
+	 display: inline;
+ }
+li a{ 
+	 color: #FFFFFF;
+	 display: block; 
+	 text-align: sticky;
+	 padding: 20px 25px;
+	}
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+ a:hover, a:active {
+    background-color: #000000;
+	color: white;
+    }  
+.products{
+    text-align:center;
+	width: 300px;
+	margin: 0 auto;
+	font-family:"Rubik", sans-serif;
+	}
+.products img{
+    display: block;
+	height: 400px;
+    width: 300px;
+	}    
+.about-section {
+    padding: 50px;
+	text-align: center;
+	background-color: #9AAEB2;
+	font-family:"Rubik", sans-serif;
+}
+.info {
+    text-align: center;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: #333;
+	margin: 0;
+	}
+			
+img {
+	margin: 0 auto;
+	width: 450px;
+	}
+			
+.sprite1{
+	background: url("../images/socials.png") no-repeat -10px -10px;
+	width: 33px;
+	height: 33px;
+	}
+			
+.sprite2{
+    background: url("../images/socials.png") no-repeat -96px -10px;
+	width: 33px;
+	height: 33px;
+	}
+			
+.sprite3{
+     background: url("../images/socials.png") no-repeat -10px -96px;
+	width: 33px;
+    height: 33px;
+	}
+.container::after, .row::after {
+	content: "";
+	display: table;
+			
+	}
+	
+.row {
+	margin: auto;
+	padding-left: 300px;
+}
+			
+.column{ 
+			float: left;
+			width: 300px;
+			font-family:"Rubik", sans-serif;
+			display: block;
+			margin: auto;
+			}
+aside {
+	 margin-top: 5px;
+	 padding: 5px;
+	 text-align: center;
+	 background-color: white;
+}
+#plants{
+	width: 560px;
+	height: 680px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#plants img {
+	animation-name: plants;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	position: absolute;
+}
+@keyframes plants {
+	0% {
+		opacity: 1;
+	}
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+	
